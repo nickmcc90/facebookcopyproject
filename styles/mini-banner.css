@@ -1,0 +1,30 @@
+.mini-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 1108px;
+  margin-left: 4px;
+}
+
+.mini-banner-left {
+  font-size: 20px;
+}
+
+.banner-location {
+  color: rgb(8, 102, 255);
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.mini-banner img {
+  width: 20px; 
+  height: 20px;
+  margin-right: 1px;
+}
+
+.mini-banner-location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}

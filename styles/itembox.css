@@ -1,0 +1,38 @@
+.item-flexbox {
+  display: flex;
+}
+
+.for-sale-preview {
+  width: 270px;
+  padding: 0 4px;
+}
+
+.sale-image-container {
+  display: block;
+}
+
+.sale-info-container {
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+.sale-image-container img {
+  width: 100%;
+  height: 270px;
+  border-radius: 10px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.location,
+.mileage {
+  color: rgb(101, 103, 107);
+  font-size: 13px;
+}
