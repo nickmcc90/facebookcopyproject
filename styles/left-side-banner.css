@@ -3,12 +3,47 @@
   left: 0;
   bottom: 0;
   top: 50px;
-  width: 360px;
+  width: 330px;
   background-color: lightpink;
+  padding: 0px 15px;
 }
 
-.left-side-banner div {
+.cog-image {
+  height: 20px;
+  width: 20px;
+}
+
+.cog-container {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
   background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-top {
+  font-size: 23px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 50px;
   width: 100%;
+  background-color: rgb(196, 133, 133);
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.search-bar-container {
+  display: flex;
+}
+
+.search-bar {
+  width: 100px;
+  
 }
