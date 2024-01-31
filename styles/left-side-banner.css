@@ -4,8 +4,8 @@
   bottom: 0;
   top: 50px;
   width: 330px;
-  background-color: lightpink;
   padding: 0px 15px;
+  background-color: white;
 }
 
 .cog-image {
@@ -17,7 +17,7 @@
   height: 35px;
   width: 35px;
   border-radius: 20px;
-  background-color: grey;
+  background-color: rgb(240, 242, 245);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,19 +31,98 @@
   align-items: center;
   height: 50px;
   width: 100%;
-  background-color: rgb(196, 133, 133);
 }
 
+/* */
+
 .search-icon {
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
+  margin-left: 4px;
 }
 
 .search-bar-container {
   display: flex;
+  align-items: center;
+}
+
+.search-icon-container {
+  background-color: rgb(240, 242, 245);
+  height: 35px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-bar {
-  width: 100px;
-  
+  width: 300px;
+  background-color: rgb(240, 242, 245);
+  padding: 5px 5px;
+  height: 25px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  font-size: 14px;
+  color: rgb(5,5,5);
+}
+
+/* */
+
+.banner-buttons {
+  margin-top: 15px;
+  font-size: 14px;
+  width: 338px;
+}
+
+.grey-box,
+.your-account-box {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  border-radius: 8px;
+  margin-left: -4px;
+}
+
+.grey-box {
+  background-color: rgb(240, 242, 245);
+}
+
+.user-container,
+.market-container {
+  height: 27px;
+  width: 27px;
+  border-radius: 15px;
+  background-color: rgb(24, 119, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.user-container {
+  background-color: rgb(240, 242, 245);
+}
+
+.market-icon,
+.user-icon {
+  height: 17px;
+  width: 17px;
+}
+
+.banner-buttons span {
+  margin-left: 8px;
+}
+
+/* */
+
+.listing-button {
+  padding: 10px 20px;
+  background-color: aliceblue;
+  color: blue;
+  border: none;
+  border-radius: 6px;
+  width: 330px;
+  font-size: 15px;
 }
