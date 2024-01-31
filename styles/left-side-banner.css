@@ -1,0 +1,14 @@
+.left-side-banner {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 50px;
+  width: 360px;
+  background-color: lightpink;
+}
+
+.left-side-banner div {
+  background-color: grey;
+  height: 50px;
+  width: 100%;
+}
