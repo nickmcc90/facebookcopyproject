@@ -8,6 +8,23 @@
   background-color: white;
 }
 
+.fixed {
+  position: fixed;
+  z-index: 100;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  margin-top: 90px;
+  height: 7000px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 .cog-image {
   height: 20px;
   width: 20px;
@@ -76,6 +93,7 @@
   width: 338px;
 }
 
+.bottom-flex,
 .grey-box,
 .your-account-box {
   display: flex;
@@ -89,28 +107,35 @@
   background-color: rgb(240, 242, 245);
 }
 
+.bottom-image-container,
 .user-container,
 .market-container {
-  height: 27px;
-  width: 27px;
-  border-radius: 15px;
-  background-color: rgb(24, 119, 242);
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 5px;
 }
 
+.bottom-image-container,
 .user-container {
   background-color: rgb(240, 242, 245);
 }
 
-.market-icon,
-.user-icon {
-  height: 17px;
-  width: 17px;
+.market-container {
+  background-color: rgb(24, 119, 242);
 }
 
+.bottom-image,
+.market-icon,
+.user-icon {
+  height: 22px;
+  width: 22px;
+}
+
+.bottom-text,
 .banner-buttons span {
   margin-left: 8px;
 }
@@ -125,4 +150,36 @@
   border-radius: 6px;
   width: 330px;
   font-size: 15px;
+}
+
+/* */
+
+hr {
+  color: rgb(255, 255, 255)
+}
+
+/* top section ends */
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.filter {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.city {
+  font-size: 15px;
+  color: rgb(8, 102, 255);
+}
+
+/* middle section ends */
+
+.bottom {
+  margin-top: 15px;
 }
