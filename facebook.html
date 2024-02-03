@@ -17,6 +17,21 @@
       facebook.html
       left-side-banner.css
       
+
+      ***In order to have a scrolling fixed position div....
+
+      1) Have a fixed div with display: flex and flex-direction: column on.
+      2) Have a div inside that one with overflow: auto on.
+      3) Have another dive inside that that contains everything you wanna scroll.
+
+      And this scroll code: 
+      ::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
     -->
   </head>
 
@@ -33,25 +48,26 @@
       </div>
     </div>
 
-    <div class="left-side-banner">
-      <div class="top">
-        <div class="fixed">
-          <div class="first-top">
-            <div class="marketplace">
-              Marketplace
-            </div>
-            <div class="cog-container">
-              <img class="cog-image" src="icons/cog-wheel-silhouette.png">
-            </div>
-          </div>
-          <label class="search-bar-container">
-            <div class="search-icon-container">
-              <img class="search-icon" src="icons/loupe.png">
-            </div>
-            <input class="search-bar" type="text" placeholder="Search Marketplace">
-          </label>
+
+    <div class="fixed-part-of-left-banner">
+      <div class="first-top">
+        <div class="marketplace">
+          Marketplace
+        </div>
+        <div class="cog-container">
+          <img class="cog-image" src="icons/cog-wheel-silhouette.png">
         </div>
       </div>
+      <label class="search-bar-container">
+        <div class="search-icon-container">
+          <img class="search-icon" src="icons/loupe.png">
+        </div>
+        <input class="search-bar" type="text" placeholder="Search Marketplace">
+      </label>
+    </div>
+
+
+    <div class="left-side-banner">
       <div class="relative">
         <div class="absolute">
           <div class="banner-buttons">
@@ -94,12 +110,58 @@
 
               <div class="bottom-flex">
                 <div class="bottom-image-container">
-                  <img class="bottom-image" src="icons/sports-car.png">
+                  <img class="bottom-image" src="icons/rental.png">
                 </div>
                 <div class="bottom-text">
-                  Vehicles
+                  Property Rentals
                 </div>
               </div>
+
+              <div class="bottom-flex">
+                <div class="bottom-image-container">
+                  <img class="bottom-image" src="icons/shirt.png">
+                </div>
+                <div class="bottom-text">
+                  Apparel
+                </div>
+              </div>
+
+              <div class="bottom-flex">
+                <div class="bottom-image-container">
+                  <img class="bottom-image" src="icons/price-tag.png">
+                </div>
+                <div class="bottom-text">
+                  Classifieds
+                </div>
+              </div>
+
+              <div class="bottom-flex">
+                <div class="bottom-image-container">
+                  <img class="bottom-image" src="icons/responsive.png">
+                </div>
+                <div class="bottom-text">
+                  Electronics
+                </div>
+              </div>
+
+              <div class="bottom-flex">
+                <div class="bottom-image-container">
+                  <img class="bottom-image" src="icons/cinema-reel.png">
+                </div>
+                <div class="bottom-text">
+                  Entertainment
+                </div>
+              </div>
+
+              <div class="bottom-flex">
+                <div class="bottom-image-container">
+                  <img class="bottom-image" src="icons/heart.png">
+                </div>
+                <div class="bottom-text">
+                  Family
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
