@@ -22,10 +22,11 @@
 
 .relative {
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .absolute {
-  height: 7000px;
+  height: 3000px;
 }
 
 ::-webkit-scrollbar {
@@ -110,8 +111,14 @@
   display: flex;
   align-items: center;
   padding: 10px 5px;
+  padding-left: 3px;
   border-radius: 8px;
   margin-left: -4px;
+}
+
+.bottom-flex {
+  padding: 8px 5px;
+  padding-left: 3px;
 }
 
 .bottom-flex:hover,
@@ -137,7 +144,7 @@
 
 .bottom-image-container,
 .user-container {
-  background-color: rgb(240, 242, 245);
+  background-color: rgb(228, 230, 235);
 }
 
 .market-container {
@@ -154,6 +161,10 @@
 .bottom-text,
 .banner-buttons span {
   margin-left: 8px;
+}
+
+.bottom-text {
+  font-size: 14px;
 }
 
 /* */
@@ -198,4 +209,32 @@ hr {
 
 .bottom {
   margin-top: 15px;
+}
+
+.cities {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.city-flex {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  justify-content: left;
+}
+
+.grey-bubble {
+  /* display: flex;
+  justify-content: left;
+  align-items: center; */
+  background-color: rgb(228, 230, 235);
+  padding: 10px 11px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.city-name {
+  font-size: 15px;
+  font-weight: 700;
 }
