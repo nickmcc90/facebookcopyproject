@@ -1,28 +1,39 @@
-.left-side-banner {
+.fixed-part-of-left-banner {
   position: fixed;
   left: 0;
-  bottom: 0;
+  height: 90px;
   top: 50px;
   width: 330px;
   padding: 0px 15px;
   background-color: white;
 }
 
-.fixed {
+.left-side-banner {
   position: fixed;
-  z-index: 100;
+  left: 0;
+  bottom: 0;
+  top: 140px;
+  width: 330px;
+  padding: 0px 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .relative {
-  position: relative;
+  overflow-y: auto;
 }
 
 .absolute {
-  position: absolute;
-  margin-top: 90px;
   height: 7000px;
-  overflow-y: scroll;
-  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
 }
 
 .cog-image {
@@ -101,6 +112,11 @@
   padding: 10px 5px;
   border-radius: 8px;
   margin-left: -4px;
+}
+
+.bottom-flex:hover,
+.your-account-box:hover {
+  background-color: rgb(240, 242, 245);
 }
 
 .grey-box {
