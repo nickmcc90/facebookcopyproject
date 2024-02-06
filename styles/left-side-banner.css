@@ -1,6 +1,6 @@
 /* this media makes it so that the left side banner doesn't exist when the window is small. */
 
-@media (max-width: 899px) {
+@media (max-width: 899.9px) {
   .visibility {
     visibility: collapse;
   }
