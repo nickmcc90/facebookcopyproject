@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
   padding-right: 25px;
   padding-top: 43px;
-  height: 2000px;
+  height: 1000px;
   background-color: rgb(240, 242, 245);
   padding-left: 380px;
 }
@@ -20,7 +20,7 @@ p {
   body {
     font-family: sans-serif;
     padding-right: 25px;
-    height: 2000px;
+    height: 500px;
     background-color: rgb(240, 242, 245);
     padding-left: 5px;
   }
