@@ -197,6 +197,10 @@
     width: 330px;
     font-size: 15px;
   }
+
+  .listing-button:hover {
+    background-color: rgb(rgb(89, 147, 197));
+  }
   
   /* */
   
@@ -209,7 +213,7 @@
   .middle {
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 8px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -222,6 +226,11 @@
   .city {
     font-size: 15px;
     color: rgb(8, 102, 255);
+    padding: 5px 0px;
+  }
+
+  .city:hover {
+    background-color: rgb(228, 230, 235)
   }
   
   /* middle section ends */
@@ -251,6 +260,11 @@
     padding: 10px 11px;
     border-radius: 20px;
     display: inline-block;
+    margin-right: 7px;
+  }
+
+  .grey-bubble:hover {
+    background-color: rgb(192, 193, 196)
   }
   
   .city-name {
